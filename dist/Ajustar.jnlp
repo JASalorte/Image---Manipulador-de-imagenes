@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Ajustar.jnlp">
+  <information>
+    <title>Ajustar</title>
+    <vendor>ALEX</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Ajustar.jar" size="111633" download="eager" />
+    <jar href="lib\Filters.jar" size="338393" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Ajustar" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ajustar.Ajustar"  name="Ajustar" />
+  <update check="always"/>
+</jnlp>
